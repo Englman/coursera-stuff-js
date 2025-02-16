@@ -9,11 +9,11 @@ function upDate(previewPic){
     let imageContainer = document.getElementById("image");
     imageContainer.style.backgroundImage = `url("${previewPic.src}")`;
     imageContainer.innerHTML = previewPic.alt;
-	}
+}
 
-	function unDo(){
+function unDo(){
      let imageContainer = document.getElementById("image");
     
       imageContainer.style.backgroundImage = "url()";
       imageContainer.innerHTML = "Okay";
-	}
+}
